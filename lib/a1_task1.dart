@@ -7,7 +7,8 @@ class A1Task1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("My Info"),
+        title: Text("Avijeet"),
+        centerTitle: true,
       ),
       body: Center(
         child: Container(

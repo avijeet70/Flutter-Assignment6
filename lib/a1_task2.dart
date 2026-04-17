@@ -8,13 +8,14 @@ class A1Task2 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Quote"),
+        centerTitle: true,
       ),
       body: Center(
         child: Container(
           padding: EdgeInsets.all(15),
           margin: EdgeInsets.all(10),
           decoration: BoxDecoration(
-            color: Colors.grey[200],
+            color: Color(0xffa66565),
             borderRadius: BorderRadius.circular(10),
           ),
           child: Text(
